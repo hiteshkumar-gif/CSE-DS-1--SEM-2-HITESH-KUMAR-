@@ -51,7 +51,7 @@ let age=19;
 let status =(age>18)?"adult":"minor";
 console.log(status);*/
 //condition
-let age=10;
+/*let age=10;
 if(age>18){
     console.log("drive");
 }
@@ -60,5 +60,32 @@ else if(age>=50){
 }
 else{
     console.log("no valid drive");
+}*/
+//switch statement
+let day="monday";
+switch(day){
+    case "monday":
+        console.log("start of week");
+        break;
+    case "tuesday":
+        console.log("second day of week");
+        break;
+    case "wednesday":
+        console.log("third day of week");
+        break;
+    case "thursday":
+        console.log("fourth day of week");
+        break;
+    case "friday":
+        console.log("fifth day of week");
+        break;
+    case "saturday":
+        console.log("sixth day of week");
+        break;
+    case "sunday":
+        console.log("end day of week");
+        break;
+    default:
+        console.log("enter correct day");
 }
 
