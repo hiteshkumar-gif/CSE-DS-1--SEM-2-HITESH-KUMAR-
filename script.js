@@ -96,4 +96,30 @@ switch(day){
     default:
         console.log("enter correct day");
 }*/
+let marks = 40;
 
+switch (marks) {
+  case  90:
+    console.log("A");
+    break;
+  case 80:
+    console.log("B");
+    break;
+  case 70:
+    console.log("C");
+    break;
+  case marks >= 60:
+    console.log("D");
+    break;
+  case marks >= 50:
+    console.log("E");
+    break;
+  case  40:
+    console.log("F");
+    break;
+  case  20:
+    console.log("fail");
+    break;
+  default:
+    console.log("enter correct marks");
+}
