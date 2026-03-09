@@ -96,7 +96,7 @@ switch(day){
     default:
         console.log("enter correct day");
 }*/
-let marks = 40;
+/*let marks = 40;
 
 switch (marks) {
   case  90:
@@ -122,4 +122,21 @@ switch (marks) {
     break;
   default:
     console.log("enter correct marks");
+}*/
+
+//loops
+for(let i=0;i<=5;i++){
+    console.log("for loop iteration: "+i);
 }
+let count=0;
+while(count<3){
+    console.log("while loop count: "+count);
+    count++;
+}
+let i=0;
+do{
+   console.log("do while loop i: "+i);
+   i++;
+}
+while(i<4);
+
