@@ -8,6 +8,7 @@ let isstudent = true;
 console.log(typeof isstudent);
 let score;
 console.log(typeof score);
+
 //non primitive user defined
 //object creation
 let car=null;
@@ -15,6 +16,7 @@ console.log(typeof car);
 let person={name:"hitesh kumar",age:19};
 console.log(typeof person);
 console.log(person);*/
+
 //arithmetic operator
 /*let a=10;
 let b=5;
@@ -27,12 +29,14 @@ console.log(++a);//11
 console.log(a++);//11
 console.log(--a);//11
 console.log(a--);//11*/
-/*//assignment
+/*
+//assignment
 let a=10;
 console.log(a+=3);
 console.log(a-=3);
 console.log(a*=3);
 console.log(a/=3);*/
+
 //comparison
 /*let a=45;
 let b="45";
@@ -42,14 +46,17 @@ console.log(a!=b);//data type
 console.log(a!==b);//value
 console.log(a>b);
 console.log(a<b);*/
-/*//string operator
+/*
+//string operator
 let a="hitesh";
 let b=" kumar";
 console.log(a+b);*/
-/*//ternary opereator
+/*
+//ternary opereator
 let age=19;
 let status =(age>18)?"adult":"minor";
 console.log(status);*/
+
 //condition
 /*let age=10;
 if(age>18){
@@ -61,8 +68,9 @@ else if(age>=50){
 else{
     console.log("no valid drive");
 }*/
+
 //switch statement
-let day="monday";
+/*let day="monday";
 switch(day){
     case "monday":
         console.log("start of week");
@@ -87,5 +95,5 @@ switch(day){
         break;
     default:
         console.log("enter correct day");
-}
+}*/
 
