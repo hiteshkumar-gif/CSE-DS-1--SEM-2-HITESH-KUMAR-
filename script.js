@@ -125,7 +125,7 @@ switch (marks) {
 }*/
 
 //loops
-for(let i=0;i<=5;i++){
+/*for(let i=0;i<=5;i++){
     console.log("for loop iteration: "+i);
 }
 let count=0;
@@ -139,4 +139,44 @@ do{
    i++;
 }
 while(i<4);
+*/
+/*let n = prompt("Enter number of subjects");
 
+let total = 0;
+
+for(let i = 1; i <= n; i++) {
+
+    let marks = prompt("Enter marks for subject " + i);
+
+    total = total + Number(marks);
+
+}
+
+alert("Total Marks = " + total);*/
+
+//arrays
+/*let students=["amit","sujal","suman"];
+console.log(students);
+console.log(students.length);
+students.push("hitesh");
+console.log(students.length);
+console.log(students);
+students.pop();
+console.log(students.length);
+console.log(students[0]);*/
+
+//objects
+let student={
+    firstname:"hitesh",
+    age:20,
+    major:"cse",
+};
+console.log(student);
+console.log(student["firstname"]);
+student.age=21;
+console.log(student);
+let students=[
+    {name:"bob",grade:92},
+    {name:"hitesh",grade:21},
+]
+console.log(students[0]);
