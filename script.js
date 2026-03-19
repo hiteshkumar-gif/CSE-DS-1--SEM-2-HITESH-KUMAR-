@@ -165,7 +165,7 @@ students.pop();
 console.log(students.length);
 console.log(students[0]);*/
 
-//objects
+/*//objects
 let student={
     firstname:"hitesh",
     age:20,
@@ -179,4 +179,41 @@ let students=[
     {name:"bob",grade:92},
     {name:"hitesh",grade:21},
 ]
-console.log(students[0]);
+console.log(students[0]);*/
+// // functions
+
+// function add(a, b) {
+//     return a + b;
+// }
+
+// function greet(name){
+//     return "Hello "+ name + "!";
+// }
+// console.log (greet("Aditya"));
+// console.log(add(3,4));
+
+// DOM Manupulation & event handling
+
+// It is a way to interact with the HTML elements using JavaScript. We can change the content, style, and structure of the web page dynamically.
+
+// Example of DOM Manupulation
+// document.getElementById("myButton").addEventListener("click", function(){
+//     document.getElementById("myText").innerHTML = "Button Clicked!";
+// });
+
+
+let newHeading = document.getElementById("heading");
+newHeading.style.color = "blue";
+
+let button = document.getElementsByClassName("changeHeading");
+button[0].addEventListener("click", function(){
+    newHeading.innerHTML = "Heading Changed!";
+    newHeading.style.color = "red";
+    newHeading.style.fontSize = "100px";
+});
+
+let para =document.getElementById("paragraph");
+para.addEventListener("click", function(){
+    para.innerHTML = "Paragraph Changed!";
+    para.style.color = "green";
+});
