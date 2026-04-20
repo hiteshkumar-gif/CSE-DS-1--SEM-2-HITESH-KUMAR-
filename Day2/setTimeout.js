@@ -4,4 +4,4 @@
 setTimeout(greet,3000)
 setTimeout  (()=>{
     console.log("hello");
-},3000);
+},3000);0
